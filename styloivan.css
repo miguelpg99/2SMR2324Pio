@@ -1,0 +1,100 @@
+/* Márgenes y padding de la página: 0 y 0 */ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* encabezado: fuente comic sans de 15px centrado color ffd665 con un borde circular del 50% de 1pxcolor f9600 */
+header {
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    text-align: center;
+    background-color: #ffd665  ;
+    border-radius: 50%;
+    border: 1px solid #bf9600;
+}
+
+/* Tamaño foto logo: 220px*/
+.fotoheader {
+    width: 220px;
+}
+
+/* Tamaño fotos seccion: 80% centradas*/
+
+
+.imgsection {
+
+     width: 80%;
+}
+
+/* h2: */
+h2 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    color: #73048e;
+}
+
+/* h3: */
+h3 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 15px;
+    color: chocolate;
+}
+/*párrafos: */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+/* body : márgenes de 5px y color fondo #40ff2f9a */
+body {
+    margin: 5px;
+    background-color: #fff7bc;
+}
+
+/*Tabla: margen izquierdo de 20px bordes negros de 1px, y las imagenes de alto 300px y ancho de 300px a excepción de la de god of warf que es de alto 300 px por 500px y centrada*/
+
+table {
+    
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.imgTabla {
+    height: 300px;
+    width: 250px;
+}
+
+.imgTabla2 {
+    height: 300px;
+    width: 500px;
+}
+
+/*aside: que quede flotando a la derecha de la tabla de mis cinco elecciones personales, con un margen izquierdo de 20px. Borde de 3px sólido de color #d6dbe9. Tamaño de width 210px. Fondo de color sólido #eae1e1 y padding 30 px.  */
+
+aside {
+    margin-left: 20px;
+    border: 3px solid #d6dbe9;
+    width: 210px;
+    background-color: #eae1e1;
+    padding: 30px;
+}
+
+/*Formulario: Margen izquierdo de 20px y de 5px abajo    . Borde de 3px sólido de color #d6dbe9. 
+Tamaño de width 210px. Fondo de color sólido #eae1e1 y padding 30px.*/
+
+form {
+margin-left: 20px;
+margin-bottom: 5px;
+border: 3px solid #d6dbe9;
+width: 210px;
+background-color: #eae1e1;
+padding: 30px
+}
+.Casillas {
+padding: 5px
+    
+
+}
